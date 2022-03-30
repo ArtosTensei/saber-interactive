@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Выполнить" Content="Выполнить" HorizontalAlignment="Left" Margin="74,262,0,0" VerticalAlignment="Top" Click="Выполнить_Click" IsEnabled="False"/>
+        <Button x:Name="Сохранить" Content="Сохранить" HorizontalAlignment="Left" Margin="75,124,0,0" VerticalAlignment="Top" Click="Сохранить_Click"/>
+        <TextBox x:Name="Длина" PreviewTextInput="ДлинаCheck" HorizontalAlignment="Left" Margin="46,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontWeight="Normal" FontStyle="Italic" Background="White" BorderBrush="#FF969AA4" Foreground="#FF6B6969" TextChanged="Длина_TextChanged" InputScope="Number"/>
+        <TextBlock x:Name="Результат" HorizontalAlignment="Left" Margin="496,53,0,0" TextWrapping="Wrap" Text="Здесь появится результат" VerticalAlignment="Top" Height="326" Width="188" TextAlignment="Center" Foreground="#FF3C3C3C"/>
+
+    </Grid>
+</Window>
