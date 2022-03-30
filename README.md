@@ -1,1 +1,1 @@
-WpfApp2
+Test task
